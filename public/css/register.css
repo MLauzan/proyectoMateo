@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #0767D5;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.register-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.register-form .inputs {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0767D5;
+    color: #0767D5;
+
+}
+
+.register-form .inputs::placeholder {
+    font-size: 11px;
+    color: #0767D5;
+}
+
+.register-form .interaction-button button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    outline: none;
+    color: #fbb117;
+    border-radius: 10px;
+    background: linear-gradient(#38b6ff, white, #38b6ff);
+    cursor: pointer;
+}
+
+.login-link {
+    display: block;
+    margin: 10px;
+    color: #38b6ff;
+    text-decoration: none;
+}
+
+.login-link a {
+    color: #38b6ff;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
