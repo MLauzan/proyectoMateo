@@ -8,7 +8,7 @@
 .register-form {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 50px auto;
     width: 300px;
     text-align: center;
     justify-content: center;
@@ -25,7 +25,7 @@ body h5 {
     text-align: center;
     margin-top: 10px;
     font-size: 25px;
-    color: #0767D5;
+    color: white;
     margin-bottom: 10px;
     position: relative;
 }
@@ -44,23 +44,26 @@ body h5 {
 }
 
 .register-form .inputs {
+    width: 80%;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 10px;
-    margin: 20px;
+    margin: auto;
+    margin-bottom: 40px;
     border: none;
     outline: none;
-    border-bottom: 2px solid #0767D5;
-    color: #0767D5;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: transparent;
 
 }
 
 .register-form .inputs::placeholder {
-    font-size: 11px;
-    color: #0767D5;
+    font-size: 15px;
+    color: white;
 }
 
 .register-form .interaction-button button {
@@ -83,7 +86,7 @@ body h5 {
 .login-link {
     display: block;
     margin: 10px;
-    color: #38b6ff;
+    color: white;
     text-decoration: none;
 }
 
@@ -92,4 +95,8 @@ body h5 {
     text-decoration: none;
 }
 
-
+.bg-color {
+    
+    background-color: #0767D5;
+    border-radius: 15px;
+}
