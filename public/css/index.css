@@ -168,11 +168,7 @@ footer .brands a {
         text-decoration: none;
     }
 
-    footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
+  
 
     footer .brand {
         padding: 10px;
