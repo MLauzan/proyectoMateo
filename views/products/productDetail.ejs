@@ -1,0 +1,61 @@
+<%- include('../partials/head') %>
+
+    <link rel="stylesheet" href="/css/productDetail.css">
+    <title>Detalle del Producto</title>
+    </head>
+
+    <body>
+
+        <!-- HEADER  -->
+        <%- include('../partials/header') %>
+
+            <main>
+                <article class="detail-product">
+                    <div class="color-container">
+                        <div class="product-name">
+                            <h3> Camiseta de Boca titular temporada 22/23</h3>
+                        </div>
+
+                        <div class="product-img">
+                            <img src="/images/boca/bocaTitular.jpg" alt="Imagen del Producto">
+                        </div>
+                    </div>
+
+                    <section class="buy-section">
+
+                        <div class='detail-texts' id="interest-fee">
+                            <i class="fa-solid fa-credit-card"></i>3 CUOTAS SIN INTERES
+
+                            <input class="product-detail-button" type="button" value="Calcular Cuotas">
+
+
+                            <div class='detail-texts' id="free-pick">
+                                <i class="fa-solid fa-store"></i> RETIRO GRATIS EN NUESTRO LOCAL
+                            </div>
+
+                            <div class="buy-buttons">
+                                <a href="#" class="product-detail-button">Añadir al carrito</a>
+                                <a href="#" class="product-detail-button">Editar producto</a>
+                                <form action="" method="POST">
+                                    <button type="submit" class="delete-button">ELIMINAR</button>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="pay-text">ELIGE TU METODO DE PAGO</div>
+
+                        <div class="payment-method">
+                            <div><img src="/images/logo-mercado-credito.png" width="50px"></div>
+                            <div><img src="/images/logo-visa.png" width="50px"></div>
+                            <div><img src="/images/logo-master.png" width="50px"></div>
+                            <div><img id="four"src="/images/logo-pago-facil.png" width="50px"></div>
+                        </div>
+                    </section>
+
+                </article>
+            </main>
+
+
+
+            <!-- FOOTER  -->
+            <%- include('../partials/footer') %>
