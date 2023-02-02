@@ -68,7 +68,7 @@ body h5 {
     color: white;
 }
 
-.log-form .interaction-button button {
+.log-form .interaction-button input {
     margin: auto;
     display: flex;
     justify-content: center;
@@ -107,3 +107,27 @@ body h5 {
     background-color: #0767D5;
     border-radius: 15px;
 }
+
+.text-danger {
+    position: relative;
+    bottom: 30px;
+    color:  red;
+    font-weight: 600;
+    width: 90%;
+    margin: auto;
+
+}
+
+body main div.formBox form .checkbox {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+body main div.formBox form .checkbox input {
+    margin: 0;
+}
+
+

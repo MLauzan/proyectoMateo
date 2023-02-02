@@ -1,0 +1,86 @@
+[
+ {
+  "id": 1,
+  "fullName": "mateo",
+  "surname": "dasdas",
+  "email": "dasdas@gmail.com",
+  "password": "asdasdsa"
+ },
+ {
+  "id": 2,
+  "fullName": "Sergio",
+  "surname": "Romero",
+  "email": "chiquitoromerito@gmail.com",
+  "password": "romero123"
+ },
+ {
+  "id": 3,
+  "fullName": "luis",
+  "surname": "advincula",
+  "email": "advinkulapro@gmail.com",
+  "password": "$2a$10$k1xtBBeQL29WqVbjMUif2OW0zZMM/CZB0pdH001QazAL/SSCql3GW"
+ },
+ {
+  "id": 4,
+  "fullName": "bruno",
+  "surname": "valdéz",
+  "email": "brunitomariscal@gmail.com",
+  "password": "$2a$10$hDILO/We1bdwbndQBVDkKO.iQcu/nkHlnnDzBlx6007nBEYsEHBoS"
+ },
+ {
+  "id": 5,
+  "fullName": "nicolas",
+  "surname": "figal",
+  "email": "nikomuralla@gmail.com",
+  "password": "$2a$10$0SSpvTrqv2Ht5j9EXTzdT.HwN4eiFGJMaZCWRyVo2IhBKn3wM3vm2"
+ },
+ {
+  "id": 6,
+  "fullName": "frank",
+  "surname": "fabra",
+  "email": "frankipro@gmail.com",
+  "password": "$2a$10$rU4Bm/EkpHqpzT9g82A14uAPx4ZylPAO.0G3tEff.yscX4X87jiym"
+ },
+ {
+  "id": 7,
+  "fullName": "Mateo",
+  "surname": "Lauzan",
+  "email": "mateolauzan33@gmail.com",
+  "password": "$2a$10$DOzB1tMB/TsyyPPyA3pERue/W2YKc6YRElZ1WS/qZwCIhyevBx2R6"
+ },
+ {
+  "id": 8,
+  "fullName": "Alan",
+  "surname": "varela",
+  "email": "varelinhacrack@gmail.com",
+  "password": "$2a$10$Vxd7p7okA3uWHp5O2y9Pt.eaNElfyunH9liGRJlCVQTbLxxWeoWtK"
+ },
+ {
+  "id": 9,
+  "fullName": "Ezequiel",
+  "surname": "Fernández",
+  "email": "equimejordoble5@gmail.com",
+  "password": "$2a$10$pcmreDi3i75YwD2R5Sfh0OKRQwZlnBfKxW/7abJCq2WLiop/.33wS"
+ },
+ {
+  "id": 10,
+  "fullName": "asdas",
+  "surname": "sadsad",
+  "email": "dsdsa@gmail.com",
+  "password": "$2a$10$y08ovHJ9cxx444zEJyhtiO4Tk2rhkgK3gUEI7OY2csHc0U9fcc3IK"
+ },
+ {
+  "id": 11,
+  "fullName": "asdasd",
+  "surname": "adadsa",
+  "email": "dasdsa@gmail.com",
+  "password": "$2a$10$LYbE6iSYoie5Tt0D7ZyuC.OzhkAZlIgB7vTMavTufuMdAgyhKCXZO"
+ },
+ {
+  "id": 12,
+  "fullName": "pol",
+  "surname": "fernandez",
+  "email": "polchi8fercrack@gmail.com",
+  "password": "$2a$10$PYGHb1veA4BOOASnvB24GehFxlo26C873VQ3Qq7kAMXUdkSrOyDwa"
+ }
+]

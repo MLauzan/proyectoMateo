@@ -1,26 +1,39 @@
 <header>
 
-
     <div class='brand'>ML CAMISETAS <i class="fa-solid fa-futbol"></i></div>
 
-    
-        <form autocomplete="off" class="search"> <input type="text" placeholder="Buscar"></input>
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
 
+    <form autocomplete="off" class="search"> <input type="text" placeholder="Buscar"></input>
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
 
+    <ul class="navbar-nav align-items-center">
+        <% if (locals.isLogged) { %>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropUser" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="/images/avatars/<%= locals.userLogged.avatar %>" width="40" style="border-radius: 100%;">
+                    Hi <%= locals.userLogged.fullName %> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/user/profile">My profile</a>
+                    <li><hr class="dropdown-divider"></li>
+                    <a class="dropdown-item" href="/user/logout">Logout</a>
+                </ul>
+            </li>
+        <% } else { %>
         <div class="user-links">
-            <a class="user"href="/user/login">INICIA SESION <i class="fa-solid fa-user"></i></a>
-            <a href="/product-cart">CARRITO <i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="user" href="/user/login">INICIA SESION <i class="fa-solid fa-user"></i></a>
+            <a href="/user/register">REGISTRATE <i class="fa-solid fa-user"></i></a>
         </div>
+        <% } %>
+    </ul>
 
-    
 
     <div class="menu">
         <i class="fa-solid fa-bars"></i>
     </div>
 
-    <nav class ='store-links'>
+    <nav class='store-links'>
         <a href="#" class="nav-link">CAMISETAS TITULARES</a>
         <a href="#" class="nav-link">CAMISETAS SUPLENTES</a>
         <a href="#" class="nav-link">SHORTS</a>
