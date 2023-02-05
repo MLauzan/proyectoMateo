@@ -70,7 +70,11 @@ input::placeholder {
     cursor: pointer;
     color: white;
     text-decoration: none;
-    margin: 0 38.2px;
+    margin: 0 22px;
+}
+
+.user-links i {
+    margin: 0 4px;
 }
 
 .menu {
@@ -80,6 +84,7 @@ input::placeholder {
 .store-links {
     display: none;
 }
+
 /* MAIN */
 
 

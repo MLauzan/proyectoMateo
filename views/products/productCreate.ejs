@@ -1,0 +1,51 @@
+<!-- HEAD  -->
+<%- include('../partials/head') %>
+
+    <link href="/css/productCreate.css" rel="stylesheet">
+    <title>Creación de producto</title>
+    </head>
+
+    <body>
+        
+            <main>
+                <div class="formBox">
+                    <h5>Crear producto</h5>
+
+                    <form action="/products" method="POST" autocomplete="off">
+
+                        <input class="inputs" type="text" name="name" placeholder="Elige el nombre del producto">
+
+                        <input class="inputs" type="number" name="price" min="1" placeholder="Elige el precio">
+
+                        <select class="selection" name="category">
+                            <option disabled selected="">Seleccione una categoría</option>
+                            <option>Gabinetes</option>
+                            <option>Almacenamiento</option>
+                            <option>Procesadores</option>
+                            <option>Placas de video</option>
+                            <option>Monitores</option>
+                            <option>Mouses</option>
+                            <option>Teclados</option>
+                            <option>Auriculares</option>
+                            <option>Micrófonos</option>
+                            <option>Web Cams</option>
+                            <option>Mandos</option>
+                            <option>Parlantes</option>
+                        </select>
+
+
+                        <input class="inputs" type="text" name="brand" placeholder="Elige la marca">
+
+                        <input class="inputs" type="number" name="discount" min="1" max="100"
+                            placeholder="Elige el porcentaje del descuento">
+
+
+                        <input class="inputs" id='inputImage' type="file" accept=".png, .jpg, .jpeg" name="image">
+
+                        <textarea name="description" class="textarea" placeholder="Elige la descripcion del producto"></textarea>
+
+                        <button type="submit" class="buttons">Crear</button>
+
+                    </form>
+                </div>
+            </main>

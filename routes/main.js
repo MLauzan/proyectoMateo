@@ -4,6 +4,7 @@ const mainController = require("../controllers/mainController")
 
 const router = express.Router();
 
+
 router.get('/', mainController.index);
 router.get('/product-cart', mainController.productCart);
 router.get('/product-detail', mainController.productDetail);
