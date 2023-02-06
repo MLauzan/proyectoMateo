@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -24,18 +25,10 @@ html, body {
     flex-direction: column;
 }
 
-
-
-
-
-
-
-
-
 .allProducts-box .product {
-    background-color: aliceblue;
-    margin: 20px auto;
-    
+    background-color: lightsteelblue;
+    margin: 30px auto;
+
 }
 
 .allProducts-box .product h5 {
@@ -46,31 +39,31 @@ html, body {
 }
 
 .allProducts-box .product .img-p-container {
+    text-align: center;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
     margin: 10px auto;
     width: 80%;
 }
 
 .allProducts-box .product img {
     width: 40%;
-    
+
 }
 
 .allProducts-box .product .paragraphs-texts {
     width: 50%;
-    
-    
+
+
 }
 
 .allProducts-box .product p {
-
     margin: 30px 0;
     font-weight: 500;
-    
+
 }
 
-.allProducts-box .product .delete-button, a {
+.allProducts-box .product input {
     display: flex;
     margin: 10px;
     justify-content: center;
@@ -82,10 +75,11 @@ html, body {
     border-radius: 5px;
     color: white;
     cursor: pointer;
+    max-height: 35.33px;
 
 }
 
-.allProducts-box .product button {
+.allProducts-box .product input {
     background-color: #38b6ff;
 }
 
@@ -93,5 +87,62 @@ html, body {
 .allProducts-box #buy-zone {
     padding: 5px;
     font-size: 80%;
-    
+
+}
+
+
+
+@media (min-width: 769px) {
+
+    .allProducts-box .product h5 {
+
+        font-size: 15px;
+
+    }
+
+    .products-container {
+
+        margin-top: 50px;
+    }
+
+    .allProducts-box {
+
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .product {
+
+        display: flex;
+        width: 44.8%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .allProducts-box .product img {
+        height: 184.87px;
+    }
+
+    .product .paragraphs-texts {
+        font-size: 20px;
+    }
+
+    .allProducts-box #buy-zone {
+        margin-bottom: 0;
+
+    }
+
+    .allProducts-box #buy-zone p {
+        font-size: 14px;
+    }
+
+    footer {
+        margin-top: -50px
+    }
+
 }
