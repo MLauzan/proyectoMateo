@@ -85,10 +85,70 @@ input::placeholder {
     display: none;
 }
 
+
+/* HEADER  IF USER IS LOGGED */
+
+.nav-loggedOptions, .nav-loggedOptions a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    max-width: fit-content;
+}
+
+
 /* MAIN */
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
+h2 {
+    display: block;
+    margin: 30px 5px;
+    font-size: medium;
+    width: 100%;
+}
+
+
+.footballProduct {
+    background-color: #769fcd;
+    margin: 30px auto;
+    width: 200px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 40%;
+    justify-content: space-between;
+
+}
+
+.footballProduct h6 {
+    position: relative;
+    font-size: 10px;
+    margin: auto 5px;
+    top: 10px;
+    text-align: center;
+    color: #f7fbfc;
+    font-family: sans-serif;
+    width: 100%;
+
+}
+
+.footballProduct img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    margin-top: 30px;
+    width: 75%;
+    height: 158px;
+    max-height: 158px;
+}
 
 
 
@@ -96,6 +156,7 @@ input::placeholder {
 /* FOOTER */
 
 footer {
+    width: 100%;
     background-color: #38b6ff;
     margin-top: auto;
 }
@@ -139,6 +200,9 @@ footer .brands a {
 
 @media (min-width: 769px) {
 
+
+    /* HEADER */
+
     .brand {
         padding: 10px;
     }
@@ -173,7 +237,23 @@ footer .brands a {
         text-decoration: none;
     }
 
-  
+
+    /* MAIN */
+
+    .footballProduct {
+        min-width: 30%;
+    }
+
+    .footballProduct h6 {
+        font-size: 12px;
+    }
+        
+    .footballProduct img {
+        margin: 12px 35px;
+    }
+
+        
+    /* FOOTER */
 
     footer .brand {
         padding: 10px;
@@ -183,6 +263,9 @@ footer .brands a {
 }
 
 @media (min-width: 1024px) {
+
+
+    /* HEADER */
     .search {
         width: 55%;
 
@@ -192,9 +275,20 @@ footer .brands a {
         width: 37%;
     }
 
+     
+    /* MAIN */
+
+     .footballProduct {
+        min-width: 23%;
+    }
+
+
 }
 
 @media (min-width: 1240px) {
+
+
+    /* HEADER */
     .search {
         width: 60%;
 
@@ -203,6 +297,8 @@ footer .brands a {
     .user-links {
         width: 30%;
 
+
     }
 
+   
 }
