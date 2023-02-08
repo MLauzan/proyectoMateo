@@ -9,6 +9,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    color: white;
 
 }
 
@@ -26,7 +27,7 @@ body {
 }
 
 .allProducts-box .product {
-    background-color: lightsteelblue;
+    background-color: #0A2647;
     margin: 30px auto;
 
 }
@@ -73,14 +74,14 @@ body {
     outline: none;
     padding: 10px;
     border-radius: 5px;
-    color: white;
+    color: 0A2647;
     cursor: pointer;
     max-height: 35.33px;
 
 }
 
 .allProducts-box .product input {
-    background-color: #38b6ff;
+    background-color: white;
 }
 
 
