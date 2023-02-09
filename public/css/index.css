@@ -15,7 +15,7 @@ body {
 header {
     padding: 5px;
     background-color: #0A2647;
-
+    width: calc(100% + 10px);
 }
 
 .brand {
@@ -160,7 +160,7 @@ h2 {
 /* FOOTER */
 
 footer {
-    width: 100%;
+    width: calc(100% + 10px);    
     background-color: #0A2647;
     margin-top: auto;
 }
@@ -193,7 +193,9 @@ footer .brands a {
 .footer-links {
     display: flex;
     justify-content: space-around;
+    margin-right: 2%;
     margin-bottom: 15px;
+    font-size: 15px;
 
 }
 
