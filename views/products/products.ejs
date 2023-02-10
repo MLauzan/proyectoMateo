@@ -1,0 +1,45 @@
+<%- include('../partials/head') %>
+
+  <link rel="stylesheet" href="/css/product.css">
+  <title>Carrito de compras</title>
+  </head>
+
+  <!-- HEADER  -->
+  <%- include('../partials/header') %>
+
+    <body>
+
+
+      <main>
+
+        <h2>CAMISETAS DE FÚTBOL</h2>
+
+        <% for (let i=0; i<58; i++) { %>
+          <div class="footballProduct <%= products[i].color %>">
+            <h6>
+              <%=products[i].name %>
+            </h6>
+            <img src="images/<%= products[i].image %>" alt="" width="90px">
+          </div>
+          <%}; %>
+
+
+
+            <h2>SHORTS DE FÚTBOL</h2>
+
+
+            <% for (let i=58; i<87; i++) { %>
+              <div class="footballProduct <%= products[i].color %>">
+                <h6>
+                  <%=products[i].name %>
+                </h6>
+                <img src="images/<%= products[i].image %>" alt="" width="90px">
+              </div>
+              <%}; %>
+
+
+      </main>
+
+
+      <!-- FOOTER  -->
+      <%- include('../partials/footer') %>

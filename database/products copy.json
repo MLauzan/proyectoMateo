@@ -6,7 +6,7 @@
         "category": "Camiseta titular",
         "discount": 15,
         "image": "/argentina/argentinaTitular.JPG",
-        "color": "celesteArg"
+        "color": "#60AFE1"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/argentina/argentinaSuplente.JPG",
-        "color": "violetaArg"
+        "color": "#353776"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "category": "Camiseta titular",
         "discount": 10,
         "image": "/boca/bocaTitular.JPG",
-        "color": "azulBoca"
+        "color": "#103f79"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/boca/bocaSuplente.JPG",
-        "color": "amarilloBoca"
+        "color": "#f3b229"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "category": "Camiseta titular",
         "discount": 15,
         "image": "/river/riverTitular.JPG",
-        "color": "rojoRiver"
+        "color": "#eb192e"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "category": "Camiseta suplente",
         "discount": 10,
         "image": "/river/riverSuplente.JPG",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/independiente/independienteTitular.JPG",
-        "color": "rojoIndependiente"
+        "color": "#e2001a"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/independiente/independienteSuplente.JPG",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/racing/racingTitular.JPG",
-        "color": "celesteRacing"
+        "color": "#029cdc"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/racing/racingSuplente.JPG",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/sanlorenzo/sanlorenzoTitular.JPG",
-        "color": "bordoSanLorenzo"
+        "color": "#ec212d"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/sanlorenzo/sanlorenzoSuplente.JPG",
-        "color": "azulSanLorenzo"
+        "color": "#273b56"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/argentinos/argentinosTitular.jpg",
-        "color": "rojoArgentinos"
+        "color": "#fb0b0e"
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/argentinos/argentinosSuplente.jpg",
-        "color": "azulArgentinos"
+        "color": "#0d3e8a"
     },
     {
         "id": 15,
@@ -132,7 +132,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/arsenal/arsenalTitular.jpg",
-        "color": "celesteArsenal"
+        "color": "#25add7"
     },
     {
         "id": 16,
@@ -141,7 +141,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/arsenal/arsenalSuplente.jpg",
-        "color": "rojoArsenal"
+        "color": "#ed2330"
     },
     {
         "id": 17,
@@ -149,8 +149,8 @@
         "price": 16000,
         "category": "Camiseta titular",
         "discount": 5,
-        "image": "/atléticotucumán/tucumanTitular.JPG",
-        "color": "celesteAtleticoTucuman"
+        "image": "/atléticotucumán/atléticotucumánTitular.JPG",
+        "color": "#62bcf1"
     },
     {
         "id": 18,
@@ -158,8 +158,8 @@
         "price": 14000,
         "category": "Camiseta suplente",
         "discount": 5,
-        "image": "/atléticotucumán/tucumanSuplente.jpg",
-        "color": "azulAtleticoTucuman"
+        "image": "/atléticotucumán/atléticotucumánSuplente.jpg",
+        "color": "#ffffff"
     },
     {
         "id": 19,
@@ -168,7 +168,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/banfield/banfieldTitular.JPG",
-        "color": "verdeBanfield"
+        "color": "#03953f"
     },
     {
         "id": 20,
@@ -177,7 +177,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/banfield/banfieldSuplente.JPG",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 21,
@@ -186,7 +186,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/barracas/barracasTitular.jpg",
-        "color": "rojoBarracas"
+        "color": "#FC0204"
     },
     {
         "id": 22,
@@ -195,7 +195,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/barracas/barracasSuplente.jpg",
-        "color": "negroGlobal"
+        "color": "#FCFEFC"
     },
     {
         "id": 23,
@@ -204,7 +204,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/belgrano/belgranoTitular.JPG",
-        "color": "celesteBelgrano"
+        "color": "#16C1F3"
     },
     {
         "id": 24,
@@ -213,7 +213,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/belgrano/belgranoSuplente.jpg",
-        "color": "negroBelgrano"
+        "color": "#E8F6FE"
     },
     {
         "id": 25,
@@ -221,8 +221,8 @@
         "price": 16000,
         "category": "Camiseta titular",
         "discount": 5,
-        "image": "/centralcórdoba/córdobaTitular.JPG",
-        "color": "negroCentralCordoba"
+        "image": "/centralcórdoba/centralcórdobaTitular.JPG",
+        "color": "#000000"
     },
     {
         "id": 26,
@@ -230,8 +230,8 @@
         "price": 14000,
         "category": "Camiseta suplente",
         "discount": 5,
-        "image": "/centralcórdoba/córdobaSuplente.JPG",
-        "color": "rojoCentralCordoba"
+        "image": "/centralcórdoba/centralcórdobaSuplente.JPG",
+        "color": "#ffffff"
     },
     {
         "id": 27,
@@ -240,7 +240,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/colón/colónTitular.JPG",
-        "color": "rojoColon"
+        "color": "#e1171d"
     },
     {
         "id": 28,
@@ -249,7 +249,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/colón/colónSuplente.JPG",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 29,
@@ -258,7 +258,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/defensa/defensaTitular.JPG",
-        "color": "amarilloDefensa"
+        "color": "#faf201"
     },
     {
         "id": 30,
@@ -267,7 +267,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/defensa/defensaSuplente.JPG",
-        "color": "verdeDefensa"
+        "color": "#008234"
     },
     {
         "id": 31,
@@ -276,7 +276,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/estudiantes/estudiantesTitular.png",
-        "color": "rojoEstudiantes"
+        "color": "#e40b12"
     },
     {
         "id": 32,
@@ -285,7 +285,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/estudiantes/estudiantesSuplente.png",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 33,
@@ -294,7 +294,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/gimnasia/gimnasiaTitular.png",
-        "color": "azulGimnasia"
+        "color": "#09446a"
     },
     {
         "id": 34,
@@ -303,7 +303,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/gimnasia/gimnasiaSuplente.png",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 35,
@@ -312,7 +312,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/godoycruz/godoycruzTitular.jpeg",
-        "color": "azulGodoyCruz"
+        "color": "#002988"
     },
     {
         "id": 36,
@@ -321,7 +321,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/godoycruz/godoycruzSuplente.jpg",
-        "color": "grisGodoyCruz"
+        "color": "#b4b0b2"
     },
     {
         "id": 37,
@@ -330,7 +330,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/huracán/huracánTitular.jpg",
-        "color": "negroGlobal"
+        "color": "#ff0000"
     },
     {
         "id": 38,
@@ -339,7 +339,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/huracán/huracánSuplente.jpeg",
-        "color": "rojoHuracan"
+        "color": "#ffffff"
     },
     {
         "id": 39,
@@ -348,7 +348,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/instituto/institutoTitular.png",
-        "color": "rojoInstituto"
+        "color": "#ff0000"
     },
     {
         "id": 40,
@@ -357,7 +357,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/instituto/institutoSuplente.png",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 41,
@@ -366,7 +366,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/lanús/lanúsTitular.png",
-        "color": "bordoLanus"
+        "color": "#ab2a3e"
     },
     {
         "id": 42,
@@ -375,7 +375,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/lanús/lanúsSuplente.png",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 43,
@@ -384,7 +384,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/newells/newellsTitular.PNG",
-        "color": "rojoNewells"
+        "color": "#f42121"
     },
     {
         "id": 44,
@@ -393,7 +393,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/newells/newellsSuplente.PNG",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 45,
@@ -402,7 +402,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/platense/platenseTitular.png",
-        "color": "marronPlatense"
+        "color": "#5c3919"
     },
 
     {
@@ -412,7 +412,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/platense/platenseSuplente.png",
-        "color": "negroGlobal"
+        "color": "#ffffff"
     },
     {
         "id": 47,
@@ -420,8 +420,8 @@
         "price": 16000,
         "category": "Camiseta titular",
         "discount": 5,
-        "image": "/rosariocentral/rosarioTitular.JPG",
-        "color": "azulRosarioCentral"
+        "image": "/rosariocentral/rosariocentralTitular.JPG",
+        "color": "#31318e"
     },
     {
         "id": 48,
@@ -429,8 +429,8 @@
         "price": 14000,
         "category": "Camiseta suplente",
         "discount": 5,
-        "image": "/rosariocentral/rosarioSuplente.JPG",
-        "color": "amarilloRosarioCentral"
+        "image": "/rosariocentral/rosariocentralSuplente.JPG",
+        "color": "#f5c513"
     },
     {
         "id": 49,
@@ -439,7 +439,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/sarmiento/sarmientoTitular.JPG",
-        "color": "verdeSarmiento"
+        "color": "#056E35"
     },
     {
         "id": 50,
@@ -448,7 +448,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/sarmiento/sarmientoSuplente.JPG",
-        "color": "verdesitoSarmiento"
+        "color": "#056E35"
     },
     {
         "id": 51,
@@ -457,7 +457,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/talleres/talleresTitular.JPG",
-        "color": "azulTalleres"
+        "color": "#05173b"
     },
     {
         "id": 52,
@@ -466,7 +466,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/talleres/talleresSuplente.JPG",
-        "color": "azul2Talleres"
+        "color": "#ffffff"
     },
     {
         "id": 53,
@@ -475,7 +475,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/tigre/tigreTitular.JPG",
-        "color": "azulTigre"
+        "color": "#024C91"
     },
     {
         "id": 54,
@@ -484,7 +484,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/tigre/tigreSuplente.JPG",
-        "color": "rojoTigre"
+        "color": "#D4032E"
     },
     {
         "id": 55,
@@ -493,7 +493,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/unión/uniónTitular.png",
-        "color": "rojoUnion"
+        "color": "#df1216"
     },
     {
         "id": 56,
@@ -502,7 +502,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/unión/uniónSuplente.png",
-        "color": "azulUnion"
+        "color": "#ffffff"
     },
     {
         "id": 57,
@@ -511,7 +511,7 @@
         "category": "Camiseta titular",
         "discount": 5,
         "image": "/vélez/vélezTitular.JPG",
-        "color": "azulVelez"
+        "color": "#0a539c"
     },
     {
         "id": 58,
@@ -520,7 +520,7 @@
         "category": "Camiseta suplente",
         "discount": 5,
         "image": "/vélez/vélezSuplente.JPG",
-        "color": "azul2Vélez"
+        "color": "#ffffff"
     },
     {
         "id": 59,
@@ -529,7 +529,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/argentina/argentinaShort.JPG",
-        "color": "celesteArg"
+        "color": "#ffffff"
     },
     {
         "id": 60,
@@ -538,7 +538,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/boca/bocaShort.JPG",
-        "color": "azulBoca"
+        "color": "#ffffff"
     },
     {
         "id": 61,
@@ -547,16 +547,16 @@
         "category": "Short",
         "discount": 5,
         "image": "/river/riverShort.JPG",
-        "color": "rojoRiver"
+        "color": "#ffffff"
     },
     {
         "id": 62,
-        "name": "Short Independiente",
+        "name": "Short Independiete",
         "price": 10000,
         "category": "Short",
         "discount": 5,
         "image": "/independiente/independienteShort.JPG",
-        "color": "rojoIndependiente"
+        "color": "#ffffff"
     },
     {
         "id": 63,
@@ -565,7 +565,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/racing/racingShort.jpg",
-        "color": "celesteRacing"
+        "color": "#ffffff"
     },
     {
         "id": 64,
@@ -574,7 +574,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/sanlorenzo/sanlorenzoShort.JPG",
-        "color": "bordoSanLorenzo"
+        "color": "#ffffff"
     },
     {
         "id": 65,
@@ -582,8 +582,8 @@
         "price": 10000,
         "category": "Short",
         "discount": 5,
-        "image": "/argentinos/argentinosShort.JPG",
-        "color": "rojoArgentinos"
+        "image": "/aregntinos/argentinosjuniorsShort.JPG",
+        "color": "#ffffff"
     },
     {
         "id": 66,
@@ -592,7 +592,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/arsenal/arsenalShort.JPG",
-        "color": "celesteArsenal"
+        "color": "#ffffff"
     },
     {
         "id": 67,
@@ -600,8 +600,8 @@
         "price": 10000,
         "category": "Short",
         "discount": 5,
-        "image": "/atléticotucumán/tucumanShort.JPG",
-        "color": "celesteAtleticoTucuman"
+        "image": "/atléticotucumán/atléticotucumánShort.JPG",
+        "color": "#ffffff"
     },
     {
         "id": 68,
@@ -610,7 +610,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/banfield/banfieldShort.JPG",
-        "color": "verdeBanfield"
+        "color": "#ffffff"
     },
     {
         "id": 69,
@@ -619,7 +619,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/barracas/barracasShort.jpg",
-        "color": "rojoBarracas"
+        "color": "#ffffff"
     },
     {
         "id": 70,
@@ -628,7 +628,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/belgrano/belgranoShort.JPG",
-        "color": "celesteBelgrano"
+        "color": "#ffffff"
     },
     {
         "id": 71,
@@ -636,8 +636,8 @@
         "price": 10000,
         "category": "Short",
         "discount": 5,
-        "image": "/centralcórdoba/córdobaShort.png",
-        "color": "negroCentralCordoba"
+        "image": "/centralcórdoba/centralcórdobaShort.png",
+        "color": "#ffffff"
     },
     {
         "id": 72,
@@ -646,7 +646,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/colón/colónShort.png",
-        "color": "rojoColon"
+        "color": "#ffffff"
     },
     {
         "id": 73,
@@ -655,7 +655,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/defensa/defensaShort.JPG",
-        "color": "amarilloDefensa"
+        "color": "#ffffff"
     },
     {
         "id": 74,
@@ -664,7 +664,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/estudiantes/estudiantesShort.JPG",
-        "color": "rojoEstudiantes"
+        "color": "#ffffff"
     },
     {
         "id": 75,
@@ -673,7 +673,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/gimnasia/gimnasiaShort.png",
-        "color": "azulGimnasia"
+        "color": "#ffffff"
     },
     {
         "id": 76,
@@ -682,7 +682,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/godoycruz/godoycruzShort.jpeg",
-        "color": "azulGodoyCruz"
+        "color": "#ffffff"
     },
     {
         "id": 77,
@@ -691,7 +691,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/huracán/huracánshort.jpg",
-        "color": "rojoHuracan"
+        "color": "#ffffff"
     },
     {
         "id": 78,
@@ -700,7 +700,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/instituto/institutoShort.JPG",
-        "color": "rojoInstituto"
+        "color": "#ffffff"
     },
     {
         "id": 79,
@@ -709,7 +709,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/lanús/lanúsShort.png",
-        "color": "bordoLanus"
+        "color": "#ffffff"
     },
     {
         "id": 80,
@@ -718,7 +718,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/newells/newellsShort.JPG",
-        "color": "rojoNewells"
+        "color": "#ffffff"
     },
     {
         "id": 81,
@@ -727,7 +727,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/platense/platenseShort.png",
-        "color": "marronPlatense"
+        "color": "#ffffff"
     },
     {
         "id": 82,
@@ -735,8 +735,8 @@
         "price": 10000,
         "category": "Short",
         "discount": 5,
-        "image": "/rosariocentral/rosarioShort.jpg",
-        "color": "azulRosarioCentral"
+        "image": "/rosariocentral/rosariocentralShort.jpg",
+        "color": "#ffffff"
     },
     {
         "id": 83,
@@ -745,7 +745,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/sarmiento/sarmientoShort.JPG",
-        "color": "verdesitoSarmiento"
+        "color": "#ffffff"
     },
     {
         "id": 84,
@@ -754,7 +754,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/talleres/talleresShort.JPG",
-        "color": "azulTalleres"
+        "color": "#ffffff"
     },
     {
         "id": 85,
@@ -763,7 +763,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/tigre/tigreShort.JPG",
-        "color": "azulTigre"
+        "color": "#ffffff"
     },
     {
         "id": 86,
@@ -772,7 +772,7 @@
         "category": "Short",
         "discount": 5,
         "image": "/unión/uniónShort.png",
-        "color": "rojoUnion"
+        "color": "#ffffff"
     },
     {
         "id": 87,
@@ -781,6 +781,6 @@
         "category": "Short",
         "discount": 5,
         "image": "/vélez/vélezShort.JPG",
-        "color": "azulVelez"
+        "color": "#ffffff"
     }
 ]
