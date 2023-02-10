@@ -11,13 +11,13 @@
 
             <main>
                 <article class="detail-product">
-                    <div class="color-container">
+                    <div class="color-container <%= product.color %>">
                         <div class="product-name">
-                            <h3> Camiseta de Boca titular temporada 22/23</h3>
+                            <h3> <%= product.name %> </h3>
                         </div>
 
                         <div class="product-img">
-                            <img src="/images/boca/bocaTitular.jpg" alt="Imagen del Producto">
+                            <img src="/images/<%= product.image %>" alt="<%= product.name %>">
                         </div>
                     </div>
 
@@ -34,11 +34,11 @@
                             </div>
 
                             <div class="buy-buttons">
-                                <a href="#" class="product-detail-button">Añadir al carrito</a>
-                                <a href="#" class="product-detail-button">Editar producto</a>
-                                <form action="" method="POST">
-                                    <button type="submit" class="delete-button">ELIMINAR</button>
-                                </form>
+                                <a href="/products/product-edit/<%=product.id %>" id="product-redirect"><input class="product-detail-button" type="submit" value="Editar"></a>
+                    <input class="product-detail-button" type="submit" value="Comprar">
+                    <form action="/products/delete/<%= product.id %>?_method=DELETE" method="POST">
+                        <input class="product-detail-button" type="submit" value="Borrar" id="delete-button"></input>
+                      </form>
                             </div>
                         </div>
                         

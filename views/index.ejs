@@ -17,88 +17,39 @@
 
         <h2>CAMISETAS DE FÚTBOL</h2>
 
-        <div class="footballProduct">
-          <h6>CAMISETA SELECCIÓN ARGENTINA EDICIÓN CAMPEONES DEL MUNDO</h6>
-          <img src="images/argentina/argentinaTitular.jpg" alt="" width="90px">
-        </div>
+        <% for (let i=0; i<12; i++) { %>
+          <div class="footballProduct <%= products[i].color %>">
+          <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
+            <h6>
+              <%=products[i].name %>
+            </h6>
+            <img src="images/<%= products[i].image %>" alt="" width="90px">
+            <div class="price-container">
+              <h4 class="price">$<%= products[i].price %></h4>
+          </div>
+          </a>
+          </div>
+          <%}; %>
 
-
-        <div class="footballProduct">
-          <h6>CAMISETA VIOLETA SELECCIÓN ARGENTINA SUPLENTE</h6>
-          <img src="images/argentina/argentinaSuplente.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>CAMISETA TITULAR BOCA JUNIORS TEMPORADA 22/23</h6>
-          <img src="images/boca/bocaTitular.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>CAMISETA TITULAR RIVER PLATE TEMPORADA 22/23</h6>
-          <img src="images/river/riverTitular.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>CAMISETA TITULAR INDEPENDIENTE TEMPORADA 22/23</h6>
-          <img src="images/independiente/independienteTitular.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>CAMISETA TITULAR RACING TEMPORADA 22/23</h6>
-          <img src="images/racing/racingTitular.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>CAMISETA TITULAR SAN LORENZO TEMPORADA 22/23</h6>
-          <img src="images/sanlorenzo/sanlorenzoTitular.jpg" alt="" width="90px">
-        </div>
 
 
 
         <h2>SHORTS DE FÚTBOL</h2>
 
 
-        <div class="footballProduct">
-          <h6>SHORT SELECCIÓN ARGENTINA</h6>
-          <img src="images/argentina/argentinaShort.jpg" alt="" width="90px">
-        </div>
-
-
-
-        <div class="footballProduct">
-          <h6>SHORT BOCA JUNIORS</h6>
-          <img src="images/boca/bocaShort.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>SHORT RIVER PLATE</h6>
-          <img src="images/river/riverShort.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>SHORT INDEPENDIENTE</h6>
-          <img src="images/independiente/independienteShort.jpg" alt="" width="90px">
-        </div>
-
-
-        <div class="footballProduct">
-          <h6>SHORT RACING</h6>
-          <img src="images/racing/racingShort.jpg" alt="" width="90px">
-        </div>
-
-
-
-        <div class="footballProduct">
-          <h6>SHORT SAN LORENZO</h6>
-          <img src="images/sanlorenzo/sanlorenzoShort.jpg" alt="" width="90px">
-        </div>
+        <% for (let i=58; i<64; i++) { %>
+          <div class="footballProduct <%= products[i].color %>">
+            <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
+            <h6>
+              <%=products[i].name %>
+            </h6>
+            <img src="images/<%= products[i].image %>" alt="" width="90px">
+            <div class="price-container">
+              <h4 class="price">$<%= products[i].price %></h4>
+          </div>
+          </a>
+          </div>
+          <%}; %>
 
 
       </main>

@@ -1,7 +1,7 @@
 <%- include('../partials/head') %>
 
-  <link rel="stylesheet" href="/css/product.css">
-  <title>Carrito de compras</title>
+
+  <title>Productos</title>
   </head>
 
   <!-- HEADER  -->
@@ -16,12 +16,18 @@
 
         <% for (let i=0; i<58; i++) { %>
           <div class="footballProduct <%= products[i].color %>">
-            <h6>
-              <%=products[i].name %>
-            </h6>
-            <img src="images/<%= products[i].image %>" alt="" width="90px">
-          </div>
-          <%}; %>
+            <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
+              <h6>
+                <%=products[i].name %>
+              </h6>
+              <img src="images/<%= products[i].image %>" alt="" width="90px">
+              <div class="price-container">
+                <h4 class="price">$<%= products[i].price %></h4>
+            </div>
+            </a>
+            </div>
+            <%}; %>
+  
 
 
 
@@ -30,12 +36,17 @@
 
             <% for (let i=58; i<87; i++) { %>
               <div class="footballProduct <%= products[i].color %>">
-                <h6>
-                  <%=products[i].name %>
-                </h6>
-                <img src="images/<%= products[i].image %>" alt="" width="90px">
-              </div>
-              <%}; %>
+            <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
+            <h6>
+              <%=products[i].name %>
+            </h6>
+            <img src="images/<%= products[i].image %>" alt="" width="90px">
+            <div class="price-container">
+              <h4 class="price">$<%= products[i].price %></h4>
+          </div>
+          </a>
+          </div>
+          <%}; %>
 
 
       </main>
