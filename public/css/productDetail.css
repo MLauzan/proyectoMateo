@@ -19,6 +19,7 @@
     border-radius: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
+    height: 100%;
 }
 
 .product-img {
@@ -39,6 +40,16 @@
     color: white;
 }
 
+.product-price   {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #17ff36;
+    margin: auto 5px;
+    margin-top: 20px;
+}
+
 .buy-section {
     margin: auto;
     justify-content: center;
@@ -47,7 +58,7 @@
     flex-direction: column;
     background-color: #0A2647;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
  
 .detail-texts {
@@ -83,6 +94,7 @@
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .delete-button {
@@ -101,11 +113,13 @@
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .payment-method {
     display: inline-flex;
     justify-content: space-around;
+    
 }
 
 .pay-text {

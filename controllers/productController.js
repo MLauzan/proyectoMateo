@@ -7,11 +7,16 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const controller = {
 
     product: (req, res) => {
-        res.render("./products/products", { products });
+        const camisetaTitular = products.filter((product) => product.category === 'Camiseta titular');
+		const camisetaSuplente = products.filter((product) => product.category === 'Camiseta suplente');
+        const short = products.filter((product) => product.category === 'Short');
+        res.render("./products/products", { camisetaTitular, camisetaSuplente, short });
     },
 
     productCart: (req, res) => {
-        res.render("./products/productCart");
+        const { id } = req.params;
+        const product = products.find((product) => product.id == id)
+        res.render("./products/productCart", { product });
     },
     productDetail: (req, res) => {
         const { id } = req.params;

@@ -6,7 +6,7 @@ const User = require('../models/User');
 
 const controller = {
 	register: (req, res) => {
-	return res.render("./users/register");
+		return res.render("./users/register");
 	},
 	processRegister: (req, res) => {
 		const resultValidation = validationResult(req);

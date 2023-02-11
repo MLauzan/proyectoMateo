@@ -12,41 +12,59 @@
 
       <main>
 
-        <h2>CAMISETAS DE FÚTBOL</h2>
+        <h2>CAMISETAS TITULARES</h2>
 
-        <% for (let i=0; i<58; i++) { %>
-          <div class="footballProduct <%= products[i].color %>">
-            <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
+        <% camisetaTitular.forEach((product)=> { %>
+          <div class="footballProduct <%= product.color %>">
+            <a href="/products/product-detail/<%= product.id %> " id="product-redirect">
               <h6>
-                <%=products[i].name %>
+                <%=product.name %>
               </h6>
-              <img src="images/<%= products[i].image %>" alt="" width="90px">
+              <img src="images/<%= product.image %>" alt="<%=product.name %>" width="90px">
               <div class="price-container">
-                <h4 class="price">$<%= products[i].price %></h4>
-            </div>
+                <h4 class="price">$<%= product.price %>
+                </h4>
+              </div>
             </a>
-            </div>
-            <%}; %>
-  
-
-
-
-            <h2>SHORTS DE FÚTBOL</h2>
-
-
-            <% for (let i=58; i<87; i++) { %>
-              <div class="footballProduct <%= products[i].color %>">
-            <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
-            <h6>
-              <%=products[i].name %>
-            </h6>
-            <img src="images/<%= products[i].image %>" alt="" width="90px">
-            <div class="price-container">
-              <h4 class="price">$<%= products[i].price %></h4>
           </div>
-          </a>
-          </div>
-          <%}; %>
+          <%}); %>
+
+
+            <h2>CAMISETAS SUPLENTES</h2>
+
+
+            <% camisetaSuplente.forEach((product)=> { %>
+              <div class="footballProduct <%= product.color %>">
+                <a href="/products/product-detail/<%= product.id %> " id="product-redirect">
+                  <h6>
+                    <%=product.name %>
+                  </h6>
+                  <img src="images/<%= product.image %>" alt="<%=product.name %>" width="90px">
+                  <div class="price-container">
+                    <h4 class="price">$<%= product.price %>
+                    </h4>
+                  </div>
+                </a>
+              </div>
+              <%}); %>
+
+              <h2>SHORTS DE FÚTBOL</h2>
+
+
+            <% short.forEach((product) => { %>
+              <div class="footballProduct <%= product.color %>">
+                <a href="/products/product-detail/<%= product.id %> " id="product-redirect">
+                  <h6>
+                    <%=product.name %>
+                  </h6>
+                  <img src="images/<%= product.image %>" alt="<%=product.name %>" width="90px">
+                  <div class="price-container">
+                    <h4 class="price">$<%= product.price %>
+                    </h4>
+                  </div>
+                </a>
+              </div>
+              <%}); %>
 
 
       </main>

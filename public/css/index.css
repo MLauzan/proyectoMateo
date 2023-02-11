@@ -10,6 +10,9 @@ body {
     min-height: 100vh;
 }
 
+button {
+    cursor: pointer;
+}
 /* HEADER */
 
 header {
@@ -62,7 +65,7 @@ input::placeholder {
     text-align: center;
     justify-content: center;
     display: flex;
-    font-size: 10px;
+    margin-top: 7px;
 
 }
 
@@ -71,6 +74,7 @@ input::placeholder {
     color: white;
     text-decoration: none;
     margin: 0 22px;
+    font-size: 11px;
 }
 
 .user-links i {
@@ -118,8 +122,8 @@ h2 {
 .footballProduct {
     background-color: #0A2647;
     margin: 30px auto;
-    width: 200px;
-    height: 220px;
+    width: 220px;
+    height: 260px;
     display: flex;
     flex-wrap: wrap;
     min-width: 40%;
@@ -135,13 +139,14 @@ h2 {
 
 .footballProduct h6, a {
     position: relative;
-    font-size: 10px;
-    margin: auto 5px;
+    font-size: 13px;
+    margin: auto;
     text-align: center;
     color: #f7fbfc;
     font-family: sans-serif;
-    width: 100%;
+    width: 98.5%;
     text-decoration: none;
+    margin-top: 5px;
 
 }
 
@@ -176,10 +181,10 @@ h2::after {
   .footballProduct .price-container {
     height: 0;
     opacity: 0;
-    transition: opacity 550ms ease, height 550ms ease-out;
+    transition: 550ms ease-in-out;
     font-size: 15px;
-    
-  }
+    color: #17ff36
+}
 
 /* FOOTER */
 
@@ -211,21 +216,23 @@ footer .brands {
 footer .brands a {
     text-decoration: none;
     color: white;
+    font-size: large;
 
 }
 
 .footer-links {
     display: flex;
-    justify-content: space-around;
     margin-right: 2%;
     margin-bottom: 15px;
-    font-size: 15px;
+    
 
 }
 
 .footer-links a {
     text-decoration: none;
     color: white;
+    font-size: 12px;
+    justify-content: space-around;
 }
 
 .negroGlobal {
@@ -433,11 +440,18 @@ footer .brands a {
     }
 
     .user-links {
+        width: 40%;
         right: -10px;
         top: 70px;
         position: absolute;
         font-size: 14.5px;
+        margin: 5px;
 
+    }
+
+    .user-links i {
+        font-size: 10.5px;
+        display: inline;
     }
 
     .menu {
@@ -463,13 +477,11 @@ footer .brands a {
         min-width: 30%;
     }
 
-    .footballProduct h6 {
-        font-size: 12px;
+    .footballProduct h6, a {
+        margin: 5px 3px;
     }
         
-    .footballProduct img {
-        margin: 12px 35px;
-    }
+    
 
         
     /* FOOTER */
@@ -496,11 +508,22 @@ footer .brands a {
 
      
     /* MAIN */
-
-     .footballProduct {
+    .footballProduct {
         min-width: 23%;
     }
 
+    .footballProduct h6, a {
+        margin: 5px 7px;
+    }
+
+    /* FOOTER  */
+    .footer-links a{
+        font-size: large;
+    }
+
+    footer .brands i{
+        font-size: xx-large;
+    }
 
 }
 
@@ -520,3 +543,4 @@ footer .brands a {
     }
 
 }
+

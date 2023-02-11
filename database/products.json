@@ -738,14 +738,14 @@
   "color": "azulRosarioCentral"
  },
  {
-    "id": 83,
-    "name": "Short Sarmiento",
-    "price": 10000,
-    "category": "Short",
-    "discount": 5,
-    "image": "/sarmiento/sarmientoShort.jpg",
-    "color": "verdesitoSarmiento"
-   },
+  "id": 83,
+  "name": "Short Sarmiento",
+  "price": 10000,
+  "category": "Short",
+  "discount": 5,
+  "image": "/sarmiento/sarmientoShort.jpg",
+  "color": "verdesitoSarmiento"
+ },
  {
   "id": 84,
   "name": "Short Talleres",
@@ -779,7 +779,7 @@
   "price": 10000,
   "category": "Short",
   "discount": 5,
-  "image": "/vélez/vélezShort.JPG",
+  "image": "/vélez/vélezShort.jpg",
   "color": "azulVelez"
  }
 ]
