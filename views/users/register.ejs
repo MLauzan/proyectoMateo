@@ -75,9 +75,15 @@
 									</div>
 								<% } %>
 
-                            <!-- <i class='bx bxs-lock-open' style="color:white"></i>
+                             <i class='bx bxs-lock-open' style="color:white"></i>
                             <input class="inputs" type="password" name="confirmPassword"
-                                placeholder="Vuelva a ingresar su contraseña" required> -->
+                                placeholder="Vuelva a ingresar su contraseña"> 
+                                <% if (locals.errors && errors.confirmPassword) { %>
+                                    <div class="text-danger">
+                                        <i class="fa-solid fa-circle-exclamation"></i>
+										<%= errors.confirmPassword.msg %>
+									</div>
+								<% } %>
                             
                                 <a class='login-link' href="/user/login">Ya tengo una cuenta</a>
                             <div class="interaction-button">
