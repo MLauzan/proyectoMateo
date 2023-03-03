@@ -18,16 +18,15 @@
         <h2>CAMISETAS DE FÚTBOL</h2>
 
         <% for (let i=0; i<12; i++) { %>
-          <div class="footballProduct <%= products[i].color %>">
-          <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
+          <div class="footballProduct ">
+         
             <h6>
               <%=products[i].name %>
             </h6>
             <img src="images/<%= products[i].image %>" alt="" width="90px">
-            <div class="price-container">
-              <h4 class="price">$<%= products[i].price %></h4>
-          </div>
-          </a>
+            <a href="/products/product-detail/<%= products[i].id %>" class="detail-container <%= products[i].color %>">Detalle del producto
+            </a>
+          
           </div>
           <%}; %>
 
@@ -38,16 +37,13 @@
 
 
         <% for (let i=58; i<64; i++) { %>
-          <div class="footballProduct <%= products[i].color %>">
-            <a href="/products/product-detail/<%= products[i].id %> " id="product-redirect">
+          <div class="footballProduct ">
             <h6>
               <%=products[i].name %>
             </h6>
             <img src="images/<%= products[i].image %>" alt="" width="90px">
-            <div class="price-container">
-              <h4 class="price">$<%= products[i].price %></h4>
-          </div>
-          </a>
+            <a href="/products/product-detail/<%= products[i].id %>" class="detail-container <%= products[i].color %>">Detalle del producto
+            </a>
           </div>
           <%}; %>
 
