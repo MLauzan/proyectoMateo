@@ -218,28 +218,16 @@ footer .brand {
 
 }
 
-footer .brands {
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-}
-
-footer .brands a {
-    text-decoration: none;
-    color: white;
-    font-size: large;
-
-}
-
-
-.footer-links, .footer-links a  {   
+footer .footer-links {
     display: flex;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
     justify-content: space-around;
-    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer .footer-links a {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -491,14 +479,11 @@ footer .brands a {
     }
 
 
-
-
-    /* FOOTER */
-
-    footer .brand {
-        padding: 10px;
-
+    /* FOOTER  */
+    .footer-links a {
+        font-size: large;
     }
+
 
 }
 
@@ -524,15 +509,6 @@ footer .brands a {
     .footballProduct h6,
     a {
         margin: 5px 7px;
-    }
-
-    /* FOOTER  */
-    .footer-links a {
-        font-size: large;
-    }
-
-    footer .brands i {
-        font-size: xx-large;
     }
 
 }
