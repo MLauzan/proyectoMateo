@@ -1,7 +1,7 @@
 [
  {
   "id": 1,
-  "name": "Camiseta selección argentina 3 estrellas",
+  "name": "Camiseta argentina 3 estrellas",
   "price": "20000",
   "category": "Camiseta titular",
   "discount": "15",
@@ -10,7 +10,7 @@
  },
  {
   "id": 2,
-  "name": "Camiseta violeta selección argentina suplente",
+  "name": "Camiseta argentina suplente",
   "price": 20000,
   "category": "Camiseta suplente",
   "discount": 5,
