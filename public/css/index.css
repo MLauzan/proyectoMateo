@@ -162,25 +162,27 @@ h2 {
 
 
 .footballProduct {
-    background-color: #0A2647;
     margin: 30px auto;
     width: 220px;
     height: 260px;
     display: flex;
     flex-wrap: wrap;
     min-width: 40%;
-    border: 2px solid #c3c6ce;
     justify-content: space-between;
-    transition: 400ms all ease;
+    background: linear-gradient(344deg, rgba(40, 40, 55, 1) 0%, rgba(16, 16, 18, 1) 50%);
+    box-shadow: 4px 6px 14px #00000036;
+    border-radius: 3px;
+    color: #F9F9F9;
+    transition: all .3s;
 
 }
 
 .footballProduct:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);  
-    transform: translateY(-5%);
+    margin-top: -5px;
 }
 
-.footballProduct h6, a {
+.footballProduct h6,
+.footballProduct a {
     position: relative;
     font-size: 13px;
     margin: auto;
@@ -215,26 +217,14 @@ h2::after {
     background-color: #0A2647;
 }
 
-  main .footballProduct:hover .price-container {
-    height: 10px;
-    opacity: 1;
-    font-size: 15px;
-  }
-  
-  .footballProduct .price-container {
-    height: 0;
-    opacity: 0;
-    transition: 550ms ease-in-out;
-    font-size: 15px;
-    color: #17ff36
-}
 
 /* FOOTER */
 
 footer {
-    width: calc(100% + 10px);    
-    background-color: #0A2647;
+    width: calc(100% + 10px);
+    background-color: #212121;
     margin-top: auto;
+    color: #f7fbfc;
 }
 
 footer .brand {
@@ -242,15 +232,18 @@ footer .brand {
     text-align: center;
 }
 
-footer .footer-links {
+footer .links {
+    width: 100%;
+    font-size: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer .brands {
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
+    color: white;
+    font-size: 30px;
 }
 
 footer .brands a {
@@ -263,203 +256,17 @@ footer .brands a {
 .footer-links {
     display: flex;
     margin-right: 2%;
-    margin-bottom: 15px;
-    
-
+    margin: 15px 0;
+    justify-content: space-around;
 }
 
 .footer-links a {
     text-decoration: none;
+    color: white;
+    font-size: 12px;
+    justify-content: space-around;
 }
 
-.negroGlobal {
-    background-color: #100505
-}
-
-.celesteArg {
-    background-color: #60AFE1;
-}
-
-.violetaArg {
-    background-color: #353776;
-}
-
-.azulBoca {
-    background-color: #103f79;
-}
-
-.amarilloBoca {
-    background-color: #f3b229;
-}
-
-.rojoRiver {
-    background-color: #eb192e;
-}
-
-.rojoIndependiente {
-    background-color: #e2001a;
-}
-
-.celesteRacing {
-    background-color: #029cdc;
-}
-
-.bordoSanLorenzo {
-    background-color: #ec212d;
-}
-
-.azulSanLorenzo {
-    background-color: #273b56;
-}
-
-.rojoArgentinos {
-    background-color: #fb0b0e;
-    
-}
-
-.azulArgentinos {
-    background-color: #0d3e8a;
-}
-
-.celesteArsenal {
-    background-color: #25add7;
-}
-
-.rojoArsenal {
-    background-color: #ed2330;
-}
-
-.celesteAtleticoTucuman {
-    background-color: #62bcf1;
-}
-
-.azulAtleticoTucuman {
-    background-color: #344B7E;
-}
-
-.verdeBanfield {
-    background-color: #03953f;
-}
-
-.rojoBarracas {
-    background-color: #FC0204;
-}
-
-.blancoBarracas {
-    background-color: #FCFEFC;
-}
-
-.celesteBelgrano {
-    background-color: #16C1F3;
-}
-
-.negroBelgrano {
-    background-color: #30323A;
-}
-
-.negroCentralCordoba {
-    background-color: #000000;
-}
-
-.rojoCentralCordoba {
-    background-color: #A62727;
-}
-
-.rojoColon {
-    background-color: #e1171d;
-}
-
-.amarilloDefensa {
-    background-color: #D9B727;
-}
-
-.verdeDefensa {
-    background-color: #18443D;
-}
-
-.rojoEstudiantes {
-    background-color: #e40b12;
-}
-
-.azulGimnasia {
-    background-color: #09446a;
-}
-
-.azulGodoyCruz {
-    background-color: #002988;
-}
-
-.grisGodoyCruz {
-    background-color: #b4b0b2;
-}
-
-.rojoHuracan {
-   background-color: #C41B14;
-}
-
-.rojoInstituto {
-    background-color: #FA0202;
-}
-
-.bordoLanus {
-    background-color: #ab2a3e;
-}
-
-.rojoNewells {
-    background-color: #f42121;
-}
-
-.marronPlatense {
-    background-color: #5c3919;
-}
-
-.azulRosarioCentral {
-    background-color: #1F4972;
-}
-
-.amarilloRosarioCentral {
-    background-color: #f5c513;
-}
-
-.verdeSarmiento {
-    background-color: #056E35;
-}
-
-.verdesitoSarmiento {
-    background-color: #528F6B;
-}
-
-.azulTalleres {
-    background-color: #05173b;
-}
-
-.azul2Talleres {
-    background-color: #1A347D;
-}
-
-.azulTigre {
-    background-color: #2A3089;
-}
-
-.rojoTigre {
-    background-color: #B82D40;
-}
-
-.rojoUnion {
-    background-color: #df1216;
-}
-
-.azulUnion {
-    background-color: #052C91;
-}
-
-.azulVélez {
-    background-color: #0a539c;
-}
-
-.azul2Vélez {
-    background-color: #13378D;
-}
 
 @media (min-width: 769px) {
 
@@ -477,20 +284,18 @@ footer .brands a {
         min-width: 30%;
     }
 
-    .footballProduct h6, a {
+    .footballProduct h6,
+    .footballProduct a {
         margin: 5px 3px;
     }
-        
-    
 
-        
+
     /* FOOTER */
 
     footer .brand {
         padding: 10px;
-
+        font-size: larger;
     }
-
 
 }
 
@@ -507,45 +312,23 @@ footer .brands a {
 
     }
 
-    .user-links {
-        width: 37%;
-    }
-
-     
     /* MAIN */
     .footballProduct {
         min-width: 23%;
     }
 
-    .footballProduct h6, a {
+    .footballProduct h6,
+    .footballProduct a {
         margin: 5px 7px;
     }
 
     /* FOOTER  */
-    .footer-links a{
+    .footer-links a {
         font-size: large;
     }
 
-    footer .brands i{
+    footer .brands i {
         font-size: xx-large;
     }
 
 }
-
-@media (min-width: 1240px) {
-
-
-    /* HEADER */
-    .search {
-        width: 60%;
-
-    }
-
-    .user-links {
-        width: 30%;
-
-
-    }
-
-}
-
