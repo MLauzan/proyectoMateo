@@ -8,89 +8,79 @@
 
         <%- include('../partials/header') %>
             <main>
-                <div class="register-form">
 
 
-                    <form method="POST" action='/user/register' autocomplete="off" style="min-height: 80vh">
-                        <div class="bg-color">
-                            <h5>Registro</h5>
-                            <i class='bx bxs-user' style="color:white"></i> 
-                            <input 
-                                    placeholder="Ingrese su nombre"
-									type="text" 
-                            name="fullName" 
-                            class="inputs <%= locals.errors && errors.fullName ? 'is-invalid' : null %>"
-                            value="<%= locals.oldData ? oldData.fullName : null %>"
-                        >
-                        <% if (locals.errors && errors.fullName) { %>
-                            <div class="text-danger">
-                                <i class="fa-solid fa-circle-exclamation"></i>
-                                <%= errors.fullName.msg %> 
-                            </div>
-                        <% } %>
-                            
-                            
-                            
+                <form class="form" method="POST" action='/user/register' autocomplete="off" style="min-height: 100vh">
+                    <p id="heading">Acceder</p>
 
+                    <div class="field">
+                        <input placeholder="Ingrese su nombre" type="text" name="fullName"
+                            class="input-field <%= locals.errors && errors.fullName ? 'is-invalid' : null %>"
+                            value="<%= locals.oldData ? oldData.fullName : null %>">
+                    </div>
+                    <% if (locals.errors && errors.fullName) { %>
+                        <div class="text-danger">
 
-                            <i class='bx bxs-user' style="color:white"></i> <input 
-                            placeholder="Ingrese su apellido"
-                            type="text" 
-                            name="surname" 
-                            class="inputs <%= locals.errors && errors.surname ? 'is-invalid' : null %>"
-                            value="<%= locals.oldData ? oldData.surname : null %>"
-                        >
-                        <% if (locals.errors && errors.surname) { %>
-                            <div class="text-danger">
-                                <i class="fa-solid fa-circle-exclamation"></i>
-                                <%= errors.surname.msg %> 
-                            </div>
-                        <% } %>
-
-                            <i class='bx bxs-envelope' style="color:white"></i>
-                            <input 
-                                    placeholder="Ingrese su email"
-									type="text" 
-									name="email" 
-									class="inputs <%= locals.errors && errors.email ? 'is-invalid' : null %>"
-									value="<%= locals.oldData ? oldData.email : null %>"
-								>
-								<% if (locals.errors && errors.email) { %>
-									<div class="text-danger">
-                                        <i class="fa-solid fa-circle-exclamation"></i>	<%= errors.email.msg %>
-									</div>
-								<% } %>
-
-                            <i class='bx bxs-lock-open' style="color:white"></i>
-                            <input 
-                                    placeholder="Ingrese su contraseña"
-									type="password" 
-									name="password" 
-									class="inputs <%= locals.errors && errors.password ? 'is-invalid' : null %>"
-								>
-								<% if (locals.errors && errors.password) { %>
-									<div class="text-danger">
-                                        <i class="fa-solid fa-circle-exclamation"></i>
-										<%= errors.password.msg %>
-									</div>
-								<% } %>
-
-                             <i class='bx bxs-lock-open' style="color:white"></i>
-                            <input class="inputs" type="password" name="confirmPassword"
-                                placeholder="Vuelva a ingresar su contraseña"> 
-                                <% if (locals.errors && errors.confirmPassword) { %>
-                                    <div class="text-danger">
-                                        <i class="fa-solid fa-circle-exclamation"></i>
-										<%= errors.confirmPassword.msg %>
-									</div>
-								<% } %>
-                            
-                                <a class='login-link' href="/user/login">Ya tengo una cuenta</a>
-                            <div class="interaction-button">
-                                <button type="submit">Enviar</button>
-                            </div>
+                            <%= errors.fullName.msg %>
                         </div>
-                </div>
+                        <% } %>
+
+
+                            <div class="field">
+
+
+                                <input placeholder="Ingrese su apellido" type="text" name="surname"
+                                    class="input-field <%= locals.errors && errors.surname ? 'is-invalid' : null %>"
+                                    value="<%= locals.oldData ? oldData.surname : null %>">
+                            </div>
+                            <% if (locals.errors && errors.surname) { %>
+                                <div class="text-danger">
+
+                                    <%= errors.surname.msg %>
+                                </div>
+                                <% } %>
+
+                                    <div class="field">
+                                        <input placeholder="Ingrese su email" type="text" name="email"
+                                            class="input-field <%= locals.errors && errors.email ? 'is-invalid' : null %>"
+                                            value="<%= locals.oldData ? oldData.email : null %>">
+                                    </div>
+                                    <% if (locals.errors && errors.email) { %>
+                                        <div class="text-danger">
+                                            <%= errors.email.msg %>
+                                        </div>
+                                        <% } %>
+
+                                            <div class="field">
+                                                <input placeholder="Ingrese su contraseña" type="password"
+                                                    name="password"
+                                                    class="input-field <%= locals.errors && errors.password ? 'is-invalid' : null %>">
+                                            </div>
+                                            <% if (locals.errors && errors.password) { %>
+                                                <div class="text-danger">
+                                                    <%= errors.password.msg %>
+                                                </div>
+                                                <% } %>
+                                                    <div class="field">
+
+                                                        <input class="input-field" type="password"
+                                                            name="confirmPassword"
+                                                            placeholder="Vuelva a ingresar su contraseña">
+                                                    </div>
+
+                                                    <% if (locals.errors && errors.confirmPassword) { %>
+                                                        <div class="text-danger">
+
+                                                            <%= errors.confirmPassword.msg %>
+                                                        </div>
+                                                        <% } %>
+
+                                                            <div class="btn">
+                                                                <button
+                                                                    class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrarme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                                                <button class="button2">Ya tengo cuenta</button>
+                                                            </div>
+
                 </form>
 
 

@@ -4,370 +4,84 @@
     box-sizing: border-box;
 }
 
-.detail-product{
+main article {
     width: 90%;
-    margin: auto;
-}
-
-.color-container {
-    margin: auto;
-    justify-content: center;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    background-color: #0A2647;
-    border-radius: 20px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    height: 100%;
-}
-
-.product-img {
-    background-color: #0A2647;
-    justify-content: center;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
+    background: linear-gradient(344deg, rgba(40, 40, 55, 1) 0%, rgba(16, 16, 18, 1) 50%);
+    box-shadow: 4px 6px 14px #00000036;
     margin: 50px auto;
+    padding: 20px;
+    color: #fff;
+    max-height: 750px;
 }
 
-.product-name {
-    margin-top: 15px;
-    display: flex;
+main article .product-name h4,
+.product-price h4 {
     justify-content: center;
     text-align: center;
-    color: white;
+    padding: 5px 0;
 }
 
-.product-price   {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #17ff36;
-    margin: auto 5px;
-    margin-top: 20px;
-}
-
-.buy-section {
+main article .product-img img {
+    width: 70%;
     margin: auto;
-    justify-content: center;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    background-color: #0A2647;
-    border-radius: 20px;
-    margin-bottom: 90px;
+    display: block;
+    padding: 10px 0;
 }
- 
-.detail-texts {
-    flex-direction: column;
-    margin: 0px ;
-    display: flex;
+
+main article .detail-texts {
+    padding: 10px 0;
     text-align: center;
-    justify-content: center;
-    padding: 10px;
-    color: white;
-    
-}
-.detail-texts i {
-    display: inline;
-    padding-bottom: 10px;
-    color: white
-
 }
 
+main article .detail-texts i {
+    margin: 0 3px;
+}
+
+main article .buy-buttons a {
+    text-decoration: none;
+}
+
+main article .buy-buttons input,
 .product-detail-button {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 16px;
-    display: flex;
-    margin:  5px auto;
+    display: block;
     width: 100%;
-    text-align: center;
-    justify-content: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #fff;
+    background: none;
     border: none;
     outline: none;
-    color: #0A2647;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.delete-button {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 16px;
-    display: flex;
-    margin:  5px auto;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    border: none;
-    outline: none;
-    color: #0A2647;
-    background-color: rgb(248, 69, 37);
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.payment-method {
-    display: inline-flex;
-    justify-content: space-around;
-    
-}
-
-.pay-text {
-    display: none;
-    color: white;
-}
-
-.negroGlobal {
-    background-color: #100505
-}
-
-.celesteArg {
-    background-color: #60AFE1;
-}
-
-.violetaArg {
-    background-color: #353776;
-}
-
-.azulBoca {
-    background-color: #103f79;
-}
-
-.amarilloBoca {
-    background-color: #f3b229;
-}
-
-.rojoRiver {
-    background-color: #eb192e;
-}
-
-.rojoIndependiente {
-    background-color: #e2001a;
-}
-
-.celesteRacing {
-    background-color: #029cdc;
-}
-
-.bordoSanLorenzo {
-    background-color: #ec212d;
-}
-
-.azulSanLorenzo {
-    background-color: #273b56;
-}
-
-.rojoArgentinos {
-    background-color: #fb0b0e;
-    
-}
-
-.azulArgentinos {
-    background-color: #0d3e8a;
-}
-
-.celesteArsenal {
-    background-color: #25add7;
-}
-
-.rojoArsenal {
-    background-color: #ed2330;
-}
-
-.celesteAtleticoTucuman {
-    background-color: #62bcf1;
-}
-
-.azulAtleticoTucuman {
-    background-color: #344B7E;
-}
-
-.verdeBanfield {
-    background-color: #03953f;
-}
-
-.rojoBarracas {
-    background-color: #FC0204;
-}
-
-.blancoBarracas {
-    background-color: #FCFEFC;
-}
-
-.celesteBelgrano {
-    background-color: #16C1F3;
-}
-
-.negroBelgrano {
-    background-color: #30323A;
-}
-
-.negroCentralCordoba {
-    background-color: #000000;
-}
-
-.rojoCentralCordoba {
-    background-color: #A62727;
-}
-
-.rojoColon {
-    background-color: #e1171d;
-}
-
-.amarilloDefensa {
-    background-color: #D9B727;
-}
-
-.verdeDefensa {
-    background-color: #18443D;
-}
-
-.rojoEstudiantes {
-    background-color: #e40b12;
-}
-
-.azulGimnasia {
-    background-color: #09446a;
-}
-
-.azulGodoyCruz {
-    background-color: #002988;
-}
-
-.grisGodoyCruz {
-    background-color: #b4b0b2;
-}
-
-.rojoHuracan {
-   background-color: #C41B14;
-}
-
-.rojoInstituto {
-    background-color: #FA0202;
-}
-
-.bordoLanus {
-    background-color: #ab2a3e;
-}
-
-.rojoNewells {
-    background-color: #f42121;
-}
-
-.marronPlatense {
-    background-color: #5c3919;
-}
-
-.azulRosarioCentral {
-    background-color: #1F4972;
-}
-
-.amarilloRosarioCentral {
-    background-color: #f5c513;
-}
-
-.verdeSarmiento {
-    background-color: #056E35;
-}
-
-.verdesitoSarmiento {
-    background-color: #528F6B;
-}
-
-.azulTalleres {
-    background-color: #05173b;
-}
-
-.azul2Talleres {
-    background-color: #1A347D;
-}
-
-.azulTigre {
-    background-color: #2A3089;
-}
-
-.rojoTigre {
-    background-color: #B82D40;
-}
-
-.rojoUnion {
-    background-color: #df1216;
-}
-
-.azulUnion {
-    background-color: #052C91;
-}
-
-.azulVélez {
-    background-color: #0a539c;
-}
-
-.azul2Vélez {
-    background-color: #13378D;
+    padding: 4px;
+    background: rgb(40, 40, 55);
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
 }
 
 @media (min-width: 769px) {
-    .detail-product {
-        margin: auto;
+    main article section {
         display: flex;
+        max-height: 450px;
+    }
+    main article .product-img  {
+        width: 45%;
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        flex-wrap: wrap;
+        margin: 0 20px;
+        max-height: 350px;
+    }
+    main article section .detail-texts {
+        width: 45%;
+        display: inline;
+        margin: auto 20px;
+        max-height: 350px;
+        
+    }
+    main article .product-img img {
         width: 100%;
-       
+        display: inline;
+        padding: 10px 0;
+        max-height: 350px;
     }
-
-    .buy-section, .color-container {
-      
-        max-height: 500px;
-        width: 40%;
-        margin: 50px 50px;
-        
-    }
-    
-    .pay-text {
-        display: none;
-    }
-    
-}
-
-@media (min-width: 1024px) {
-    
-    .buy-section, .color-container {
-      
-        max-height: none;
-        
-    }
-
-    .detail-texts, .product-detail-button, .buy-buttons {
-        margin-bottom: 7%;
-    }
-
-    .delete-button {
-        margin-bottom: -40px;
-    }
-    
-    .pay-text {
-        font-size: x-large;
-        font-weight: 600;
-        margin-bottom: 30px;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-
-    }
-   .payment-method img {
-    width: 100px;
-   }
-   .payment-method #four {
-    width: 120px;
-   }
     
 }

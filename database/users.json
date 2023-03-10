@@ -1,3 +1,10 @@
 [
-
+ {
+  "id": 1,
+  "fullName": "Mateingo",
+  "surname": "Lauzinho",
+  "email": "mateolauzan42933@gmail.com",
+  "password": "$2a$10$Tyt2eatWZ4NQtc62e6XjS.YGSfgzON7GlP/yCUTmSQcTsxsfQT9qS",
+  "confirmPassword": "$2a$10$p/0i/d.SC6aCO76i6URjIu59hNKIGm8rRtRoehPEk1HbbfBLhOkwa"
+ }
 ]

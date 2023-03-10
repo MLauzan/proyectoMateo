@@ -12,56 +12,47 @@
 
       <main>
 
-        <h2>CAMISETAS TITULARES</h2>
+        <h2 id="camisetasTitulares">CAMISETAS TITULARES </h2>
 
         <% camisetaTitular.forEach((product)=> { %>
-          <div class="footballProduct <%= product.color %>">
+          <div class="footballProduct">
             <a href="/products/product-detail/<%= product.id %> " id="product-redirect">
               <h6>
                 <%=product.name %>
               </h6>
-              <img src="images/<%= product.image %>" alt="<%=product.name %>" width="90px">
-              <div class="price-container">
-                <h4 class="price">$<%= product.price %>
-                </h4>
-              </div>
+              <img src="/images/<%= product.image %>" alt="<%=product.name %>" width="90px">
+              
             </a>
           </div>
           <%}); %>
 
 
-            <h2>CAMISETAS SUPLENTES</h2>
+            <h2 id="camisetasSuplentes">CAMISETAS SUPLENTES</h2>
 
 
             <% camisetaSuplente.forEach((product)=> { %>
-              <div class="footballProduct <%= product.color %>">
+              <div class="footballProduct">
                 <a href="/products/product-detail/<%= product.id %> " id="product-redirect">
                   <h6>
                     <%=product.name %>
                   </h6>
-                  <img src="images/<%= product.image %>" alt="<%=product.name %>" width="90px">
-                  <div class="price-container">
-                    <h4 class="price">$<%= product.price %>
-                    </h4>
-                  </div>
+                  <img src="/images/<%= product.image %>" alt="<%=product.name %>" width="90px">
+                  
                 </a>
               </div>
               <%}); %>
 
-              <h2>SHORTS DE FÚTBOL</h2>
+              <h2 id="shorts">SHORTS DE FÚTBOL</h2>
 
 
             <% short.forEach((product) => { %>
-              <div class="footballProduct <%= product.color %>">
+              <div class="footballProduct">
                 <a href="/products/product-detail/<%= product.id %> " id="product-redirect">
                   <h6>
                     <%=product.name %>
                   </h6>
-                  <img src="images/<%= product.image %>" alt="<%=product.name %>" width="90px">
-                  <div class="price-container">
-                    <h4 class="price">$<%= product.price %>
-                    </h4>
-                  </div>
+                  <img src="/images/<%= product.image %>" alt="<%=product.name %>" width="90px">
+                  
                 </a>
               </div>
               <%}); %>

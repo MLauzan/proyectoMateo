@@ -1,39 +1,116 @@
 <header>
 
-    <div class='brand'>ML CAMISETAS <i class="fa-solid fa-futbol"></i></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <p class="navbar-brand">ML CAMISETAS</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex bg-dark" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+                    <% if (locals.isLogged) { %>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Hi <%= locals.userLogged.fullName %>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/user/profile">My profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/user/logout">Logout</a>
+                        </li>
+
+                        <% } else { %>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/user/login">INICIA SESIÓN</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/user/register">REGISTRATE</a>
+                            </li>
 
 
-    <form autocomplete="off" class="search"> <input type="text" placeholder="Buscar"></input>
-        <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
 
-    <ul class="navbarUserLogged">
-        <% if (locals.isLogged) { %>
-            <ul class="nav-loggedOptions">
-                <a style="color: white;">Hi <%= locals.userLogged.fullName %></a>
-                <a href="/user/profile">My profile</a>
-                <a href="/user/logout">Logout</a>
-            </ul>
+                            <li class="nav-item d-lg-none">
+                                <a class="nav-link active" href="/products#camisetasTitulares">CAMISETAS TITULARES</a>
+                            </li>
+
+                            <li class="nav-item d-lg-none">
+                                <a class="nav-link active" href="/products#camisetasSuplentes">CAMISETAS SUPLENTES</a>
+                            </li>
+
+                            <li class="nav-item d-lg-none">
+                                <a class="nav-link active" href="/products#shorts">SHORTS</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link d-none d-lg-block dropdown-toggle" href="#"
+                                    id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PRODUCTOS
+                                </a>
 
 
-            <% } else { %>
-                <div class="user-links">
-                    <a class="user" href="/user/login">INICIA SESION<i class="fa-solid fa-user"></i></a>
-                    <a href="/user/register">REGISTRATE<i class="fa-solid fa-user"></i></a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="/products">CAMISETAS TITULARES</a></li>
+                                    <li><a class="dropdown-item" href="/products#camisetasSuplentes">CAMISETAS
+                                            SUPLENTES</a></li>
+                                    <li>
+
+                                    </li>
+                                    <li><a class="dropdown-item" href="/products#shorts">SHORTS</a></li>
+                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/products/product-cart"
+                                    data-bs-toggle="modal" data-bs-target="#product-cart">CARRITO <i
+                                        class="fa-solid fa-cart-shopping"></i></a>
+
+                            </li>
+                            </li>
+
+                            <% } %>
+                </ul>
+
+                <form class="d-none d-lg-flex mx-5 w-300">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                </form>
+
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="product-cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Carrito de compras</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/images/boca/bocaTitular.JPG" class="product-cart-img" width="90px">
+                        <div class="cart-paragraphs">
+                            <p>Remera Boca Juniors </p>
+                            <p>Precio: $20000</p>
+                        </div>
+                    </div>
+                    <div class="cart-buttons">
+                        <button class=" btn-danger"><i class="fas fa-trash-alt"></i></button>
+                        <input type="number" value="1" min="1" max="10">
+                    </div>
+                    <div class="modal-footer">
+                        <h6>Precio total: $20000</h6>
+                        <div class="modal-footer-buttons">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-success">Ir a pagar</button>
+                        </div>
+                    </div>
                 </div>
-                <% } %>
-    </ul>
-
-
-    <div class="menu">
-        <i class="fa-solid fa-bars"></i>
-    </div>
-
-    <nav class='store-links'>
-        <a href="#" class="nav-link">CAMISETAS TITULARES</a>
-        <a href="#" class="nav-link">CAMISETAS SUPLENTES</a>
-        <a href="#" class="nav-link">SHORTS</a>
+            </div>
+        </div>
     </nav>
-
 
 </header>
